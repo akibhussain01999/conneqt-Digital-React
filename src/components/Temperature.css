@@ -1,0 +1,69 @@
+/* Temperature.css */
+
+/* Card Styling */
+.temperature-card {
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: white;
+    background: linear-gradient(to right, #f8cdda, #1e3c72);
+  }
+  
+  /* Title */
+  .temperature-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Temperature Value */
+  .temperature-value {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Button Styling */
+  .temperature-button {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .temperature-button:hover {
+    background-color: #ff5722;
+    transform: scale(1.1);
+  }
+  
+  /* Button Container */
+  .temperature-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Card Background Colors Based on Temperature */
+  .temperature-cold {
+    background-color: #e1f5fe; /* Light blue for negative temperatures */
+  }
+  
+  .temperature-neutral {
+    background-color: #ffffcc; /* Yellowish for 0°C */
+  }
+  
+  .temperature-hot {
+    background-color: #ffcccb; /* Light red for high temperature */
+  }
+  
+  .temperature-moderate {
+    background-color: #add8e6; /* Light blue for moderate temperatures */
+  }
+  
